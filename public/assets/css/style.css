@@ -1,0 +1,193 @@
+html {
+	position: relative;
+	min-height: 100%;
+	width: 63%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  
+  body {
+	margin-bottom: 80px;
+		
+  }
+  #navbarColor01{
+	background-color: blue;
+  }
+  
+  .card a:not([href]):not([tabindex]).scrape-new {
+	color:  grey;
+  }
+  
+  .footer {
+	position: relative;
+	bottom: 0;
+	
+	height: 80px;
+	color: white;
+	text-align: center;
+	background-color:rgb(245, 245, 237);
+	width: 100%;
+	
+  }
+  
+  .navbar {
+	margin-bottom: 0;
+  }
+  
+  .jumbotron {
+	overflow: hidden;
+	  background-size: 50%;
+	  background-position: center;
+	  background-image: url('../images/news.jpeg');
+	  background-repeat: no-repeat;
+	  height: 200px;
+	  width: 100%;
+  }
+  /*  
+  
+  } */ */
+  
+  .jumbotron .overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: auto;
+	background: linear-gradient blue;
+	opacity: 0.7;
+  }
+  .btn-success{
+	background-color: blue;
+  }
+  
+  .jumbotron .caption {
+	position: absolute;
+	top: 30%;
+	width: 100%;
+	text-align: center;
+  }
+  
+  .jumbotron .caption h1,
+  .jumbotron .caption p {
+	color: white;
+  }
+  
+  .jumbotron h1 {
+	font-size: 80px;
+	font-weight: 800;
+  }
+  
+  .jumbotron p {
+	font-size: 30px;
+  }
+  
+  .article-container {
+	padding-bottom: 25px;
+  }
+  
+  .card {
+	border-radius: 0;
+	box-shadow: 3px 3px 20px mediumblue;
+	margin: 20px 0;
+  }
+  
+  .card .card-header {
+	background-color: grey;
+	position: relative;
+	padding-top: 30px;
+	padding-bottom: 30px;
+  }
+  
+  .card .card-header h3 {
+	color: grey;
+  }
+  
+  .card .card-header .btn {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+  }
+  
+  .card .card-header .btn.delete {
+	right: 160px;
+  }
+  
+  .card .card-body {
+	font-size: 16px;
+  }
+  
+  .card .card-header .article-link {
+	color: white;
+	display: inline-block;
+	width: 80%;
+  }
+  
+  .footer > .container > p {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	margin: 0;
+	/* font-weight: 800; */
+	background: blue;
+	width: 100%;
+	
+  }
+  
+  .navbar-nav > li > a.scrape-new,
+  .navbar-nav > li > a.clear {
+	padding: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-weight: 800;
+	color: white;
+  }
+  
+  .navbar-nav > li > a.scrape-new:hover,
+  .navbar-nav > li > a.clear:hover {
+	background: blue;
+  }
+  
+  .navbar-nav > li > a.scrape-new:active {
+	background: grey;
+  }
+  
+  .scrape-new {
+	cursor: pointer;
+  }
+  
+  .m-top-80 {
+	margin-top: 80px;
+  }
+  
+  textarea {
+	padding: 10px;
+	resize: none;
+	width: 100%;
+  }
+  
+  .bootbox-body .btn {
+	float: right;
+	margin: 5px;
+  }
+  
+  .note.list-group-item .btn {
+	position: relative;
+	bottom: 10px;
+  }
+  
+  @media screen and (max-width: 640px) {
+	.panel-primary, body{
+	  inline-size: auto;
+	}
+  
+	#navbarColor01{
+	  inline-size: auto;
+	}
+	
+  }
